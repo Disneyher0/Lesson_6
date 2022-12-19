@@ -3,7 +3,6 @@ import csv
 from PyPDF2 import PdfReader
 from openpyxl import load_workbook
 
-
 def test_archive():
     file_zip = zipfile.ZipFile('recources/files.zip', 'w')
     file_zip.write('recources/file1.xlsx')
