@@ -14,7 +14,6 @@ def test_archive():
            and ('recources/file3.pdf' in lst)
     file_zip.close()
 
-
 def test_read_and_assert_pdf():
     pdf_reader = PdfReader('recources/file3.pdf')
     text = pdf_reader.pages[0].extract_text()
